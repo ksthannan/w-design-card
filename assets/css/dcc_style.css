@@ -1,0 +1,560 @@
+#html-card-holder {
+    background: #fff;
+    padding: 25px;
+    margin-bottom: 10px;
+    width: 600px;
+    height: 360px;
+    border-radius: 7px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px 1px grey;
+}
+#html-card-back {
+    background: #fff;
+    padding: 25px;
+    margin-bottom: 10px;
+    width: 600px;
+    height: 360px;
+    border-radius: 7px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px 1px grey;
+}
+ul#tabs-nav li {
+    border: 2px solid #eee;
+}
+.dcc_logo svg {
+    height: 30px;
+    margin-left: 15px;
+    width: auto;
+}
+.dcc_logo path {
+    fill: #000;
+}
+.dcc_card_wrap.dcc_logo_back img {
+    height: 40px;
+    width: auto;
+}
+#html-card-back {
+    background-size: auto 101% !important;
+}
+/* #html-card-holder, #html-card-back {
+    background-size: calc(100% + 2px) auto!important;
+} */
+#dcc_cropper {
+    text-align: center;
+    max-width: 320px;
+	height:auto;
+	min-height:180px;
+}
+.dcc_card_wrap.dcc_logo_back svg {
+    height: 40px;
+    width: auto;
+}
+.dcc_card_wrap.dcc_logo_back {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding-top: 55px;
+}
+#dcc_cropper button {
+    height: 34px;
+    width: 34px;
+    text-align: center;
+    padding: 7px;
+    margin: 3px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.2;
+}
+#dcc_cropper {
+    text-align: center;
+}
+ul#tabs-nav li {
+    width: 40%;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 100px;
+    display: inline-block;
+}
+.button_group {
+    display: block;
+    overflow: hidden;
+    margin: 15px 0;
+    text-align: left;
+}
+button.re_edit_f, button.re_edit_b {
+    margin-bottom: 15px;
+}
+#btn_submit_final, button#c_design_card {
+    padding: 15px 75px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+}
+.button_row input[type=button] {
+    padding: 8px 15px;
+    font-size: 16px;
+}
+.button_row {
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    padding-top: 15px;
+}
+form#card_content_back {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+#tabs-content {
+    overflow: hidden;
+    position: relative;
+}
+.c_pre_pop .preloader_ajax img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 9999;
+    height: 60px;
+    max-width: 100%;
+    width: auto;
+}
+
+.preloader_ajax {
+    width: 100%;
+    height: 100%;
+    display: none;
+    overflow: hidden;
+    background: rgba(255,255,255,0.8);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 9999;
+}
+input#btn_submit_card {
+    margin-top: 20px;
+}
+.final_submit {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    overflow: hidden;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #eee;
+}
+div#dcc_cropper img {
+    width: 100%;
+    display: block;
+}
+/* div#previewImage, a#btn-Convert-Html2Image {
+    position: absolute;
+    left: -9999px;
+} */
+.dcc_card_wrap .dcc_title {
+    width: 50%;
+    float: left;
+    padding-left: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 35px;
+}
+.dcc_card_wrap .dcc_btm_qr {
+    width: 50%;
+    float: right;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    text-align: right;
+}
+.dcc_top {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+.dcc_card_wrap .dcc_right_icon img {
+    height: 70px;
+    width: auto;
+}
+.dcc_card_wrap .dcc_btm_qr img {
+    height: 130px;
+    width: auto;
+    border-radius: 10px;
+}
+.dcc_card_wrap .dcc_logo {
+    width: calc(100% - 80px);
+    float: left;
+}
+.dcc_card_wrap .dcc_right_icon {
+    width: 80px;
+    float: right;
+    text-align: right;
+}
+.dcc_card_wrap .dcc_btm {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    margin: auto;
+}
+.c_right p {
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.2;
+}
+.c_right form h3 {
+    font-size: 16px;
+}
+.c_right form input[type=text] {
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 5px;
+    margin-top: 10px;
+}
+/* Tab area css  */
+/* Tabs */
+.tabs {
+    width: 100%;
+    border-radius: 5px 5px 5px 5px;
+  }
+  ul#tabs-nav {
+    list-style: none;
+    margin: 0;
+    overflow: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+  #tabs-nav li a {
+    text-decoration: none;
+    color: #333;
+  }
+  ul#tabs-nav li:hover,
+  ul#tabs-nav li.active {
+    background-color: #333;
+    color:#fff;
+  }
+  ul#tabs-nav li:hover a,
+  ul#tabs-nav li.active a{
+    color:#fff;
+  }
+  .tab-content {
+    padding: 10px;
+    background-color: #FFF;
+    overflow: hidden;
+}
+.dcc_top path {
+    fill: #000;
+}
+.dcc_right_icon svg {
+    height: 70px;
+    width: auto;
+}
+
+  /* form css  */
+  .c_color span {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin: 3px;
+    border-radius: 100%;
+    cursor: pointer;
+    float: left;
+}
+span.c_color_white {
+    background: #fff;
+}
+span.c_color_red {
+    background: red;
+}
+span.c_color_blue {
+    background: blue;
+}
+span.c_color_green {
+    background: green;
+}
+.c_right form input[type=file] {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.cfont_size span {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 1.2;
+}
+.dcc_logo img {
+    max-height: 100px;
+    width: auto;
+}
+span.dcctitle {
+    font-weight: bold;
+    line-height: 1.1;
+}
+form#card_input_content {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.c_pre_pop {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: rgba(0,0,0,0.3);
+    display: block;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.c_pop_wrapper {
+    max-width: 90%;
+    width: 1400px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-height: 90%;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px 40px;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+.c_qr_color span {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin: 3px;
+    border-radius: 100%;
+    cursor: pointer;
+    float: left;
+}
+.cfont_size {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.card_color {
+    overflow: hidden;
+}
+.c_qr_color {
+    overflow: hidden;
+}
+.cfont_size button {
+    height: 34px;
+    width: 34px;
+    text-align: center;
+    padding: 7px;
+    margin: 3px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: bold;
+    float: left;
+}
+.c_pre_pop{
+    display: none;
+}
+button#c_design_card {
+    margin-bottom: 20px;
+}
+span.c_pop_close {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 25px;
+    border: 1px solid #ddd;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+input#btn-Preview-Image {
+    margin-top: 20px;
+}
+.c_left {
+    width: calc(60% - 10px);
+    float: left;
+    margin-right: 10px;
+}
+.c_right {
+    width: 40%;
+    float: left;
+}
+form#card_input_content > div {
+    overflow: hidden;
+    display: block;
+    width:100%;
+}
+.c_right form h3 {
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+span.dcctitle {
+    color: #000;
+}
+
+@media only screen and (min-width: 1301px){
+    /* .c_left {
+        transform: scale(1.5) translateY(18%);
+        min-height: 390px;
+        z-index: 1;
+        position: relative;
+    } */
+    .c_left {
+        zoom: 1.5;
+    }
+
+}
+@media only screen and (min-width: 768px){
+    .c_right, .c_left {
+		width: 50%;
+        margin: 0;
+	}
+
+    span.c_pop_close {
+        right: 10px;
+        top: 42px;
+        z-index: 999999;
+        width: 50px;
+        padding: 0;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:991px){
+span.c_pop_close {
+    right: 10px;
+    top: 70px;
+}
+}
+
+@media only screen and (max-width: 767px){
+    .c_right, .c_left {
+		width: 100%;
+        margin: 0;
+	}
+    .c_right {
+		margin-top:25px;
+	}
+
+    span.c_pop_close {
+        right: 10px;
+        top: 42px;
+        z-index: 999999;
+        width: 20px;
+        padding: 0;
+        text-align: center;
+    }
+
+}
+
+
+@media only screen and (max-width: 1300px){
+	
+	span.c_pop_close {
+		background: transparent;
+		color: #333;
+		border: none;
+	}
+}
+
+.c_right {
+    position: relative;
+    z-index: 10;
+}
+
+	#html-card-back {
+    padding: 25px 0!important;
+    width: 430px!important;
+    height: 220px!important;
+	}
+    #html-card-holder, #html-card-back {
+        padding: 15px 0!important;
+        width: 300px!important;
+        height: 180px!important;
+        margin: 0 auto;
+    }
+    
+    .dcc_card_wrap .dcc_title {
+        padding-left: 15px;
+        padding-bottom: 15px;
+        width: calc(100% - 110px);
+    }
+
+    .dcc_right_icon svg {
+        height: 30px;
+        margin-right: 15px;
+    }
+    .dcc_card_wrap .dcc_btm_qr {
+        padding-right: 15px;
+        padding-bottom: 15px;
+        max-width:100px;
+    }
+    .dcc_card_wrap .dcc_btm_qr img {
+        height: 60px;
+    }
+
+    .c_pop_wrapper {
+        padding: 40px 5px !important;
+        max-width: 100% !important;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+	.dcc_logo img {
+    max-height: 30px !important;
+    margin-left: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

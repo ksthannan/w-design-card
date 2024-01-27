@@ -1,0 +1,206 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-12-29 18:40+0600\n"
+"PO-Revision-Date: 2022-12-29 13:52+0000\n"
+"Last-Translator: Max\n"
+"Language-Team: Deutsch\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.6.3; wp-6.1.1"
+
+#: inc/frontend/productpage.php:105
+msgid "Back side"
+msgstr "Rückseite"
+
+#: w-design-card.php:325
+msgid "Back side default Logo Upload"
+msgstr "Standard-Logo Rückseite - schwarz"
+
+#: w-design-card.php:332
+msgid "Back side default White Logo Upload"
+msgstr "Standard-Logo Rückseite - weiß"
+
+#: w-design-card.php:153
+msgid "Card color 1"
+msgstr "Kartenfarbe 1"
+
+#: w-design-card.php:167
+msgid "Card color 2"
+msgstr "Kartenfarbe 2"
+
+#: w-design-card.php:181
+msgid "Card color 3"
+msgstr "Kartenfarbe 3"
+
+#: w-design-card.php:195
+msgid "Card color 4"
+msgstr "Kartenfarbe 4"
+
+#: w-design-card.php:209
+msgid "Card color 5"
+msgstr "Kartenfarbe 5"
+
+#: w-design-card.php:283
+msgid "Card Logo Upload"
+msgstr "Logo Vorderseite - schwarz"
+
+#: w-design-card.php:290
+msgid "Card White Logo Upload"
+msgstr "Logo Vorderseite - weiß"
+
+#: inc/frontend/productpage.php:131
+msgid "Choose your card color"
+msgstr "Wählen Sie Ihre Kartenfarbe"
+
+#: w-design-card.php:146
+msgid "Default name"
+msgstr "Standardname"
+
+#. Name of the plugin
+#: w-design-card.php:114
+msgid "Design Custom Card"
+msgstr "Gestalten Sie eine benutzerdefinierte Karte"
+
+#. Description of the plugin
+msgid "Design custom product card in woocommerce for customizable."
+msgstr "TapCon - Kartendesigner"
+
+#: inc/frontend/productpage.php:94
+msgid "Design your card"
+msgstr "Karte personalisieren"
+
+#: w-design-card.php:216
+msgid "Elements when active color five"
+msgstr "Kartenfarbe 5: Elementfarbe"
+
+#: w-design-card.php:202
+msgid "Elements when active color four"
+msgstr "Kartenfarbe 4: Elementfarbe"
+
+#: w-design-card.php:160
+msgid "Elements when active color one"
+msgstr "Kartenfarbe 1: Elementfarbe"
+
+#: w-design-card.php:188
+msgid "Elements when active color three"
+msgstr "Kartenfarbe 3: Elementfarbe"
+
+#: w-design-card.php:174
+msgid "Elements when active color two"
+msgstr "Kartenfarbe 2: Elementfarbe"
+
+#: w-design-card.php:311
+msgid "Enable QR code border color options"
+msgstr "QR-Code Rahmen aktivieren"
+
+#: inc/frontend/productpage.php:140
+msgid "Enter your name"
+msgstr "Geben Sie Ihren Namen ein:"
+
+#: inc/frontend/productpage.php:104
+msgid "Front side"
+msgstr "Vorderseite"
+
+#. Author URI of the plugin
+msgid "https://tapcon.me/"
+msgstr "https://tapcon.me/"
+
+#: w-design-card.php:318
+msgid "NFC Icon Upload (svg for color changing feature)"
+msgstr "NFC-Icon (Für Farbwechsel eine SVG verwenden)"
+
+#: w-design-card.php:131
+msgid "Product Page Custom Card Design Settings"
+msgstr "TapCon - Kartendesigner - Einstellungen"
+
+#: w-design-card.php:275
+msgid "QR Code Border Color"
+msgstr "QR-Code Rahmenfarbe"
+
+#: w-design-card.php:225
+msgid "QR color 1"
+msgstr "QR-Farbe 1"
+
+#: w-design-card.php:232
+msgid "QR color 2"
+msgstr "QR-Farbe 2"
+
+#: w-design-card.php:239
+msgid "QR color 3"
+msgstr "QR-Farbe 3"
+
+#: w-design-card.php:246
+msgid "QR color 4"
+msgstr "QR-Farbe 4"
+
+#: w-design-card.php:253
+msgid "QR color 5"
+msgstr "QR-Farbe 5"
+
+#: w-design-card.php:260
+msgid "QR color 6"
+msgstr "QR-Farbe 6"
+
+#: w-design-card.php:267
+msgid "QR color 7"
+msgstr "QR-Farbe 7"
+
+#: w-design-card.php:297
+msgid "QR Image Upload"
+msgstr "QR-Code schwarz"
+
+#: w-design-card.php:304
+msgid "QR White Image Upload"
+msgstr "QR-Code weiß"
+
+#: inc/frontend/productpage.php:168 inc/frontend/productpage.php:214
+msgid "Save"
+msgstr "Speichern"
+
+#: w-design-card.php:563
+msgid "Shortcode: <b>[dcc_product_card]</b>"
+msgstr "Shortcode: <b>[dcc_product_card]</b>"
+
+#: w-design-card.php:138
+msgid ""
+"Show on single product page before add to cart button without inserting "
+"shortcode"
+msgstr "Anzeigen bei Einzelprodukten (ohne Shortcode)"
+
+#: inc/frontend/productpage.php:225
+msgid "Submit"
+msgstr "In den Warenkorb legen"
+
+#. Author of the plugin
+msgid "Tapcon"
+msgstr "TapCon"
+
+#: inc/frontend/productpage.php:127
+msgid ""
+"The QR code will lead to your TapCon Profile. Upload a logo with a "
+"transparent background ( .png or .svg ). If not added, the TapCon logo will "
+"remain on the card."
+msgstr ""
+"Laden Sie hier Ihr Design mit transparentem Hintergrund hoch. Wenn kein Bild "
+"hochgeladen wird, verbleibt das TapCon-Logo auf der Vorderseite."
+
+#: inc/frontend/productpage.php:148 inc/frontend/productpage.php:192
+msgid "Upload image"
+msgstr "Bild hochladen"
+
+#: inc/frontend/productpage.php:188
+msgid ""
+"Upload your design here. If not added, the TapCon logo will remain on\n"
+"                                        the card"
+msgstr ""
+"Laden Sie hier Ihr Design hoch. Wenn kein Bild hochgeladen wird, verbleibt "
+"das TapCon-Logo auf der Rückseite."

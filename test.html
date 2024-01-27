@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+var items = [];
+var item = {
+    id: 123,
+    title: 'Product title',
+    thumb: 'http://localhost/wp/wp-content/uploads/2022/11/Choose-Meals-2.png',
+    url: 'http://localhost/wp/product/10-meal-plan',
+    quantity: 1,
+};
+items.push(item);
+
+var item2 = {
+    id: 124,
+    title: 'Product title 2',
+    thumb: 'http://localhost/wp/wp-content/uploads/2022/11/Choose-Meals-2.png',
+    url: 'http://localhost/wp/product/10-meal-plan',
+    quantity: 1,
+};
+items.push(item2);
+
+var item3 = {
+    id: 125,
+    title: 'Product title 3',
+    thumb: 'http://localhost/wp/wp-content/uploads/2022/11/Choose-Meals-2.png',
+    url: 'http://localhost/wp/product/10-meal-plan',
+    quantity: 1,
+};
+items.push(item3);
+
+
+
+localStorage.setItem('selectedItems', JSON.stringify(items));
+
+var getItems = localStorage.getItem('selectedItems');
+
+var getItems = JSON.parse(getItems);
+var exists = getItems.some(function(obj) {
+    return obj.id === 123;
+});
+
+console.log(exists);
+
+
+
+
+
+
+
+// console.log(items);
+// console.log(JSON.parse(getItems));
+
+
+
+
+
+
+</script>
+</body>
+</html>
